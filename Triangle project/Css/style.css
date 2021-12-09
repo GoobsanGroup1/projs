@@ -1,0 +1,49 @@
+body{
+    background-color: blue;
+}
+.container{
+    width: 1040px;
+    margin: 0 auto;
+    display: flex;
+
+}
+.heading h1,h3{
+  text-align: center;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    margin-left: 220px;
+    margin-top: 120px;
+}
+.input{
+    width: 400px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    border: none;
+    box-shadow: 1px 1px 3px 1px  rgba(30, 151, 151, 0.801);;
+}
+#submit{
+    box-shadow: 0 3px 1px 1px;
+    border-radius: 10px;
+    border: none;
+    width: 90px;
+    height: 40px;
+    font-size: 1.1rem;
+    color: white;
+    font-weight: bold;
+    background-color: green;
+}
+.input:hover{
+    outline: lightpink;
+    padding: 10px;
+}
+.pragraph{
+    font-size: 1.3rem;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 1px 1px 3px 1px  rgba(30, 151, 151, 0.801);;
+
+}

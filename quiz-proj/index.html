@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Quiz form</title>
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <script src="js/jquery-3.6.0.js" charset="utf-8"></script>
+    <script src="js/script.js" charset="utf-8"></script>
+  </head>
+  <body>
+
+    <div class="container">
+        <div class="jumbotron">
+          <h1>Try your best</h1>
+          <h2>Quiz for javaScript</h2>
+        </div>
+        <div class="well">
+          <!--  quiz form -->
+
+          <form id="questions" name="questions" class="somaliquiz" action="score.html">
+            <p id="top"></p>
+
+            <p><br> 1) What is javaScript ?<br> </p>
+            <input type="radio" name="question1" value="answer">  java script is a Language of programing <br>
+            <input type="radio" name="question1" value="0"> java script is business <br>
+            <input type="radio" name="question1" value="0"> java script is language of management
+            </div>
+
+            <div class="well">
+            <p><b>2) what is the other name of javaScript?</b></p>
+            <input type="radio" name="question2" value="0"> java <br>
+            <input type="radio" name="question2" value="0"> jquery<br>
+            <input type="radio" name="question2" value="answer">  js
+            </div>
+
+            <div class="well">
+            <p><b> 3) is javaScript same for java?</b></p><br>
+            <input type="radio" name="question3" value="0">   Yes<br>
+            <input type="radio" name="question3" value="0">   Maybe<br>
+            <input type="radio" name="question3" value="answer">  No<br>
+            </div>
+
+            <div class="well">
+            <p><b>4) these are  types of loops in javaScript Except.</b></p>
+            <input type="radio" name="question4" value="0"> while loop<br>
+            <input type="radio" name="question4" value="answer"> range loop<br>
+            <input type="radio" name="question4" value="0"> for loop<br>
+            </div>
+
+            <div class="well">
+            <p><b>5) is case-sensative javaScript? </b></p>
+            <input type="radio" name="question5" value="0"> No<br>
+            <input type="radio" name="question5" value="0"> i don't know<br>
+            <input type="radio" name="question5" value="answer"> Yes<br>
+            </div>
+
+            <div class="well">
+            <p><b>6) how to write variable in javaScript? </b></p>
+            <input type="radio" name="question6" value="0"> variable = value<br>
+            <input type="radio" name="question6" value="answer"> var = value<br>
+            <input type="radio" name="question6" value="0"> only variable<br>
+            </div>
+
+            <div class="well">
+            <p><b>7) when javaScript and Html connecting we must use. </b></p>
+            <input type="radio" name="question7" value="answer"> script<br>
+            <input type="radio" name="question7" value="0"> link<br>
+            <input type="radio" name="question7" value="0"> nothing<br>
+            </div>
+
+            <div class="well">
+            <p><b>8) what are data types of javaScript Except? </b></p>
+            <input type="radio" name="question8" value="0"> undefined<br>
+            <input type="radio" name="question8" value="answer"> camleCase<br>
+            <input type="radio" name="question8" value="0"> string<br>
+            </div>
+
+            <button id="submit1" type="submit" name="button">save results</button>
+            <button type="reset" name="button" id="reset-btn"> <a href="#top" class="reset">reset</a> </button> <br>
+          </form>
+
+          <div class="move">
+            <p id="message"></p>
+          </div>
+        </div>
+      </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  </body>
+</html>

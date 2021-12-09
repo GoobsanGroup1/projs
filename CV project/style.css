@@ -1,0 +1,62 @@
+
+body{
+  background-color: #f3eead;
+}
+#page{
+  max-width: 1200px;
+  margin: auto;
+}
+span{
+  color: blue;
+}
+h1{
+  text-align: center;
+  color: blue;
+  font-size: 10;
+  font-family: cursive;
+}
+h2{
+  text-align: center;
+}
+h3{
+  margin-top: 50px;
+  color: #05464e;
+}
+h4{
+  margin-top: 20px;
+}
+
+.new{
+  color: green;
+  font-size: 20px;
+}
+p{
+  text-align: center;
+  font-size: 20px;
+
+
+}
+ul li{
+  font-size: 20px;
+}
+ol li{
+  font-size:20px;
+}
+
+.image{
+  width: 50%;
+  float: right;
+  margin-left: 30px;
+  margin-right: 40px;
+  padding: 30px;
+}
+
+.ftr{
+  text-align: center;
+  height: 50px;
+  width: 100%;
+  padding-right: 30px;
+  clear: both;
+  position: relative;
+  color:red;
+}

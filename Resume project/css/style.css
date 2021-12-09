@@ -1,0 +1,181 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'nunito',sans-serif;
+
+}
+body{
+  /* background-color:  #85c1e9 ; */
+}
+.page{
+  min-height: 100vh;
+  width: 80%;
+  margin: 2rem auto;
+  display: grid;
+  grid-template-columns: repeat(5,1fr)
+}
+.left-side{
+  grid-column: span 2;
+  height: 100%;
+  /* background-color: #808b96 ; */
+}
+.right-side{
+  grid-column: span 3;
+  height: 100%;
+  background-color: #fff;
+}
+.image{
+  width: 80%;
+}
+.image img{
+  width: 100%;
+  /* border: 5px solid #cacfd2 ; */
+  border-radius: 50%;
+}
+
+/* left contant is here */
+
+.left-contant{
+  /* padding:  3rem 3rem 3rem; */
+}
+.objectives{
+  font-size: 1.5rem;
+  color: blue;
+  margin-top: 4rem;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.contact{
+  font-size: 1rem;
+  color: blue;
+  margin-top: 4rem;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+
+.profile{
+  font-size: 1rem;
+  color: blue;
+  margin-top: 5rem;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.education{
+  font-size: 1rem;
+  color: blue;
+  margin-top: 5rem;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.time1{
+  margin-top:3rem;
+  text-align: center;
+  font-size: 1rem;
+}
+.time2{
+  text-align: center;
+  font-size: 15px;
+  margin:4rem;
+}
+.exper{
+  font-size: 1rem;
+  color: blue;
+  margin-top: 3rem;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.skills{
+  font-size: 1rem;
+  color: blue;
+  margin-top: 3rem;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.skill-pra{
+  font-size: 1rem;
+  padding-top: 1rem;
+}
+
+/* right contant is here */
+
+.right-contant{
+  position: relative;
+  padding: 3rem;
+}
+.name{
+  font-size: 1.3rem;
+}
+.icons{
+  position: absolute;
+  right: 10px;
+  top:30px;
+}
+.info ul{
+  list-style: none;
+  margin-top: 1.3rem;
+  color: black;
+  text-transform: none;
+}
+hr{
+  margin-top: 15px;
+}
+.object-pra{
+  font-size: 0.9rem;
+}
+.object-pra p{
+  margin: 160px 0 0 0;
+}
+.about-pra{
+  color: black;
+  font-size: 0.9rem;
+}
+.about-pra p{
+  margin: 60px 0 0 0;
+}
+.educa-pra{
+  font-size: 0.9rem;
+}
+.educa-pra p{
+  margin: 50px 0 0 0;
+}
+.educa-pra2{
+  font-size: 0.9rem;
+}
+.educa-pra2 p{
+  margin: 20px 0 0 0;
+}
+.exp-head1{
+  color:#17202a ;
+  font-size: 0.9rem;
+  font-weight: bold;
+  margin: 100px 0 0 0;
+}
+.exp-para1{
+  margin: 10px;
+}
+.skills-list ul{
+  color: black;
+  font-size: 1rem;
+  margin: 50px 0 0 0;
+}
+.skills-list p{
+  color: black;
+  font-size: 1rem;
+  margin: 5px 0 0 0;
+
+/* media  */
+/* @media screen and (min-width: 480px) and (min-width: 677px) {
+body {
+  background-color:  #283747 ;
+  color: black;
+}
+} */
